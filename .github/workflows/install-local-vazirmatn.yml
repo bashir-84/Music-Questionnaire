@@ -61,6 +61,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add landing-2/index.html landing-2/assets/fonts/
-          git diff --cached --check
+          git diff --cached --check -- landing-2/index.html
           git commit -m 'Host Vazirmatn locally as single variable WOFF2 font'
           git push origin HEAD:main
